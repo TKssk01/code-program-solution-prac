@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
         # 配列が1つの要素しか持たない場合、到達可能なのでTrueを返す
