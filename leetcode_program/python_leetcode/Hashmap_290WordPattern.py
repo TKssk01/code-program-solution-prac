@@ -1,7 +1,6 @@
 from typing import List
 class Solution:
     def wordPattern(self, pattern: str, s: str) -> bool:
-        
         s_list = s.split()
         # 文字列 pattern から文字列 s への対応関係を保持する辞書
         if len(s_list) != len(pattern):
