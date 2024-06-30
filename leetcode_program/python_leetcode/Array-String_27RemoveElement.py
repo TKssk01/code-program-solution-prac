@@ -8,4 +8,3 @@ class Solution:
             nums.remove(val)
         # ループが終了したら、'nums'リストの長さを返す。
         return nums
-    
