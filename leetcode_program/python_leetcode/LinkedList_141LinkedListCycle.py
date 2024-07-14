@@ -1,3 +1,11 @@
+from typing import Optional
+
+class ListNode:
+    def __init__(self, val=0, next=None, random=None):
+        # ノードの初期化
+        self.val = val
+        self.next = next
+  
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
         if not head or not head.next:
